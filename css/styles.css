@@ -1,0 +1,125 @@
+.navbar-dark {
+	background-color: #333;
+	color: white;
+	font-size: large;
+}
+
+.navbar-nav {
+	margin-left: 120px;
+}
+
+.footer {
+	background-color: #37474f;
+	color: white;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+#address {
+	margin: 0px;
+	color: white;
+}
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 600px;
+}
+
+.jumbotron {
+	margin: 0px auto;
+	padding: 70px 30px;
+	background: white;
+}
+
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+	background-color: white;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+p {
+	font-size: large;
+	color: white;
+}
+.map {
+	margin: 0;
+	background-color: #4fc3f7;
+}
+#info {
+	color: #155724;
+}
+#blue {
+	color: #4fc3f7;
+}
+#lemonade {
+	color: #54bcc6;
+}
+#myhover:hover {
+	text-decoration: none;
+	color: white;
+	background-color: yellowgreen;
+}
+#mytabs {
+	background-color: yellowgreen;
+	color: white;
+	font-size: large;
+}
+.tab-content {
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.card-header{
+	color: #2196f3; background-color: white; font-size: x-large;
+}
+.card-content{
+	color: green; background-color: white; min-height: 200px;
+	padding: 10px;
+}
+
+.carousel {
+	background: #999;
+}
+.carousel .carousel-item {
+	height: 600px;
+}
+.carousel .carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 300px;
+	width: fit-content;
+	height: 600px;
+}
+
+#carouselButton {
+	right: 0px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.modal-header {
+	background: #512da8;
+	color: floralwhite;
+}
+.modal-header button {
+	color: floralwhite;
+}
+
+.modal-body {
+	background: #d1c4e9;
+}
+
+.modal-footer {
+	background: #9575cd;
+}
